@@ -1,23 +1,23 @@
-﻿var newTodo = angular.module("Authentication", ["ngRoute"]);
+﻿var app = angular.module("NewTodo", ["ngRoute"]);
 
-lastGroup.config([
+app.config([
     "$routeProvider", function ($routeProvider) {
         $routeProvider
             .when("/",
             {
-                templateUrl: "App/login.html",
+                templateUrl: "app/login.html",
                 controller: "loginController"
             })
             .when("/home",
             {
-                templateUrl: "App/home.html",
+                templateUrl: "app/home.html",
                 controller: "homeController"
             });
 
     }
 ])
 
-lastGroup.run(["$http", function ($http) {
+app.run(["$http", function ($http) {
 
     var token = sessionStorage.getItem('token');
 

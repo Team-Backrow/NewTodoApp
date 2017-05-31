@@ -25,7 +25,7 @@ namespace NewToDo
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
-                     "~/Scripts/angular-core.js",
+                     "~/Scripts/angular.js",
                      "~/Scripts/angular-route.js",
                      "~/App/app.js")
             .IncludeDirectory("~/App", "*.js", true));
