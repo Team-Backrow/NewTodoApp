@@ -88,3 +88,5 @@ C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\bin\System.Web.H
 C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\obj\Debug\NewToDo.csprojResolveAssemblyReference.cache
 C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\obj\Debug\NewToDo.dll
 C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\obj\Debug\NewToDo.pdb
+C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\obj\Debug\NewToDo.Migrations.initialState.resources
+C:\Users\NSSStudent\Documents\GitHub\NewTodoApp\NewToDo\NewToDo\obj\Debug\NewToDo.csproj.GenerateResource.Cache
