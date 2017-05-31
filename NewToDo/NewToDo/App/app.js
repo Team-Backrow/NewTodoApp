@@ -1,16 +1,16 @@
-﻿var lastGroup = angular.module("Authentication", ["ngRoute"]);
+﻿var newTodo = angular.module("Authentication", ["ngRoute"]);
 
 lastGroup.config([
     "$routeProvider", function ($routeProvider) {
         $routeProvider
             .when("/",
             {
-                templateUrl: "lastGroup/login.html",
+                templateUrl: "App/login.html",
                 controller: "loginController"
             })
             .when("/home",
             {
-                templateUrl: "lastGroup/home.html",
+                templateUrl: "App/home.html",
                 controller: "homeController"
             });
 
